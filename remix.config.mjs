@@ -3,10 +3,10 @@ export default {
   ignoredRouteFiles: ["**/.*"],
   publicPath: "/_static/build/",
   server: "server.ts",
-  serverBuildPath: "server/index.mjs",
+  serverBuildPath: "server/index.js",
   // appDirectory: "app",
   // assetsBuildDirectory: "public/build",
-  serverModuleFormat: "esm",
+  serverModuleFormat: "cjs",
   future: {
     v2_dev: true,
     v2_errorBoundary: true,
